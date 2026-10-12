@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="demo.gif" alt="atharva demo" width="720">
+  <img src="https://raw.githubusercontent.com/akshayvr-programmer/atharva/main/demo.gif" alt="atharva demo" width="720">
 </p>
 
 ---
@@ -29,7 +29,8 @@ you just write code. the rest is handled. with love. 🫶
 ```
 pipx install atharva
 ```
-don't have pipx yet?
+
+<sub>don't have pipx yet?</sub>
 
 ```
 sudo apt install pipx    # linux
@@ -37,7 +38,6 @@ brew install pipx        # mac
 pip install pipx         # windows
 pipx ensurepath          # then open a new terminal
 ```
-
 
 you'll also need **Google Chrome** installed (atharva borrows it to talk to Codeforces, very respectfully).
 
@@ -128,3 +128,4 @@ pull requests welcome. coffee's on me if it's a good one ☕
 </p>
 
 <p align="center"><sub>MIT licensed. use it, fork it, love it.</sub></p>
+
