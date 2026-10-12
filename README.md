@@ -29,6 +29,15 @@ you just write code. the rest is handled. with love. 🫶
 ```
 pipx install atharva
 ```
+don't have pipx yet?
+
+```
+sudo apt install pipx    # linux
+brew install pipx        # mac
+pip install pipx         # windows
+pipx ensurepath          # then open a new terminal
+```
+
 
 you'll also need **Google Chrome** installed (atharva borrows it to talk to Codeforces, very respectfully).
 
