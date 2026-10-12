@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atharva"
+version = "0.1.0"
+description = "Codeforces from your terminal: fetch problems, test locally, submit, and watch verdicts live."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [{ name = "Akshay", email = "akshayvr2@gmail.com" }]
+keywords = ["codeforces", "competitive-programming", "cli", "cp"]
+dependencies = ["playwright", "beautifulsoup4", "rich", "rich-argparse"]
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Education",
+]
+
+[project.urls]
+Homepage = "https://github.com/akshayvr-programmer/atharva"
+
+
+[project.scripts]
+cfx = "atharva.cli:main"
+atharva = "atharva.cli:main"
